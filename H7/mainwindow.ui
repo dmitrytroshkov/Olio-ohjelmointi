@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>MainWindow</class>
+  <widget class="QMainWindow" name="MainWindow">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>400</width>
+        <height>300</height>
+      </rect>
+    </property>
+    <widget class="QWidget" name="centralwidget">
+      <layout class="QVBoxLayout">
+        <item>
+          <widget class="QPushButton" name="btnCount">
+            <property name="text">
+              <string>Count</string>
+            </property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QPushButton" name="btnReset">
+            <property name="text">
+              <string>Reset</string>
+            </property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QLineEdit" name="txtResult">
+            <property name="text">
+              <string>0</string>
+            </property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QLabel" name="labelInfo">
+            <property name="text">
+              <string>Painiketta painettu 0 kertaa</string>
+            </property>
+          </widget>
+        </item>
+      </layout>
+    </widget>
+  </widget>
+</ui>
